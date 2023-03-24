@@ -61,15 +61,6 @@ p {
   margin: 5% 3% 5% 0;
 }
 
-.title-image {
-  width: 25%;
-  /* height: 35%; */
-  transform: rotate(20deg);
-  /* margin-left: 12%; */
-  position: absolute;
-  right: 20%;
-  padding-top: 5%;
-}
 
 #features {
   padding: 7% 15%;
@@ -125,6 +116,14 @@ p {
   padding: 3% 2%;
 }
 
+
+.title-image {
+  width: 22%;
+  transform: rotate(20deg);
+  position: absolute; 
+  right: 22%; 
+}
+
 @media (max-width: 991px) {
   #title {
     text-align: center;
@@ -132,7 +131,8 @@ p {
   .title-image {
     width: 60%;
     position: static;
-    transform: rotate(0);
+    transform: rotate(0); 
+    margin: none;
   }
 }
 
